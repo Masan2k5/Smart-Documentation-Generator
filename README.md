@@ -76,8 +76,11 @@ open website/site/index.html
 
 ## Sample Output
 
-https://screenshots/documentation.png
-https://screenshots/analytics.png
+###Documentation Page
+![Documentation Page](screenshots/documentation.png)
+
+###Analytics Dashboard
+![Analytics Dashboard](screenshots/analytics.png)
 
 ## Built With
 
