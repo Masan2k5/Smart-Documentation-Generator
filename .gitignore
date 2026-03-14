@@ -1,0 +1,48 @@
+# Build directories
+build/
+*/build/
+*/*/build/
+
+# Python
+__pycache__/
+*.pyc
+python_ai/venv/
+python_ai/__pycache__/
+*/*/__pycache__/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Output directories
+output/
+website/site/
+website/docs/assets/data/
+website/docs/assets/images/
+website/docs/assets/diagrams/
+website/docs/reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+.env
+*.venv
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+EOF

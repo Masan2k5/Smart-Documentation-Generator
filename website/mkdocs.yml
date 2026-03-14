@@ -1,0 +1,55 @@
+site_name: Smart Documentation Generator
+site_description: AI-powered documentation for C++ codebases
+site_author: Masud Muradli
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: amber
+  font:
+    text: Inter
+    code: Inconsolata
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Masan2k5
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - table-reader
+
+nav:
+  - Home: index.md
+  - Documentation:
+    - MyClass: documentation/MyClass.md
+    - main: documentation/main.md
+    - utils: documentation/utils.md
+  - Analytics: analytics.md
+  - About: about.md

@@ -1,0 +1,15 @@
+{
+  "total_files": 5,
+  "total_functions": 6,
+  "total_classes": 1,
+  "files_with_docs": 5,
+  "functions_documented": 6,
+  "classes_documented": 1,
+  "diagrams_generated": 0,
+  "files_by_type": {
+    ".h": 2,
+    ".cpp": 3
+  },
+  "function_coverage": 100.0,
+  "class_coverage": 100.0
+}

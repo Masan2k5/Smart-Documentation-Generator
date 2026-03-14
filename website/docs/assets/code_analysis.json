@@ -1,0 +1,92 @@
+[
+  {
+    "classes": [],
+    "file": "../sample_project/utils.h",
+    "functions": [
+      {
+        "line_number": 4,
+        "name": "add",
+        "parameters": [
+          "int a",
+          "int b"
+        ],
+        "return_type": "int",
+        "signature": "int add(int a, int b);"
+      }
+    ],
+    "line_count": 6
+  },
+  {
+    "classes": [],
+    "file": "../sample_project/utils.cpp",
+    "functions": [
+      {
+        "line_number": 3,
+        "name": "add",
+        "parameters": [
+          "int a",
+          "int b"
+        ],
+        "return_type": "int",
+        "signature": "int add(int a, int b) {"
+      }
+    ],
+    "line_count": 5
+  },
+  {
+    "classes": [
+      {
+        "line_number": 4,
+        "name": "MyClass"
+      }
+    ],
+    "file": "../sample_project/MyClass.h",
+    "functions": [
+      {
+        "line_number": 7,
+        "name": "doSomething",
+        "parameters": [],
+        "return_type": "void",
+        "signature": "    void doSomething();"
+      }
+    ],
+    "line_count": 12
+  },
+  {
+    "classes": [],
+    "file": "../sample_project/MyClass.cpp",
+    "functions": [
+      {
+        "line_number": 3,
+        "name": "value",
+        "parameters": [
+          "0"
+        ],
+        "return_type": ":",
+        "signature": "MyClass::MyClass() : value(0) {}"
+      }
+    ],
+    "line_count": 7
+  },
+  {
+    "classes": [],
+    "file": "../sample_project/main.cpp",
+    "functions": [
+      {
+        "line_number": 3,
+        "name": "hello",
+        "parameters": [],
+        "return_type": "void",
+        "signature": "void hello() {"
+      },
+      {
+        "line_number": 7,
+        "name": "main",
+        "parameters": [],
+        "return_type": "int",
+        "signature": "int main() {"
+      }
+    ],
+    "line_count": 10
+  }
+]
