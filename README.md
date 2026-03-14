@@ -21,8 +21,8 @@ An AI-powered tool that generates documentation for C++ codebases with analytics
 
 ```bash
 # Clone the repository
-git clone https://github.com/Masan2k5/smart-doc-gen.git
-cd smart-doc-gen
+git clone https://github.com/Masan2k5/Smart-Documentation-Generator.git
+cd Smart-Documentation-Generator
 
 # Build the C++ parser
 mkdir build && cd build
