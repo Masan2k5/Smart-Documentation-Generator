@@ -76,10 +76,10 @@ open website/site/index.html
 
 ## Sample Output
 
-###Documentation Page
+### Documentation Page
 ![Documentation Page](screenshots/documentation.png)
 
-###Analytics Dashboard
+### Analytics Dashboard
 ![Analytics Dashboard](screenshots/analytics.png)
 
 ## Built With
